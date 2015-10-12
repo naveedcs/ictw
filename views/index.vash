@@ -1,0 +1,368 @@
+<!doctype html>
+<html>
+  <head>
+
+    <title>@model.title</title>
+
+
+    @html.block("style", function(model){
+    <link rel="stylesheet" href="js/lib/bootstrap/dist/css/bootstrap.min.css">
+      <link rel="stylesheet" href="js/lib/bootstrap/dist/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="js/lib/bxslider-4/dist/jquery.bxslider.min.css">
+          <link rel="stylesheet" href="css/font-awesome.min.css">
+            <link rel="stylesheet" href="css/jquery-ui.css">
+              <link rel="stylesheet" href="css/fonts.css">
+                <link rel="stylesheet" href="css/global.css">
+          
+<link href="js/lib/instalink/instalink-1.7.0.min.css" rel="stylesheet"> 
+
+       
+    })
+</head>
+
+  @html.block("body",function(model){
+  <body>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+              
+    <div id="fb-root"></div>
+    <script>
+      console.log("initializing FB");
+      window.fbAsyncInit = function() {
+      FB.init({
+      appId : '1638209386449579',
+      xfbml : true,
+      version : 'v2.4'
+      });
+      };
+
+      (function(d, s, id){
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) {return;}
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js";;
+      fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <!--  / wrapper \ -->
+    <section id="wrapper">
+
+      <!--  / header container \ -->
+      <header id="headerCntr">
+        <!--  / menu box \ -->
+        <nav class="menuBox navbar">
+          <div class="container">
+            <div class="navbar-header">
+
+              <a href="/index" class="navbar-brand">
+                <img src="images/logo.png" alt="">
+              </a>
+            </div>
+          </div>
+        </nav>
+        <!--  \ menu box / -->
+      </header>
+      <!--  \ header container / -->
+      <!--  / banner container \ -->
+      <section id="bannerCntr">
+
+        <div id="carousel-example-generic" class="carousel slide">
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <div class="block" style="background-image: url(images/banner.jpg);">
+                <div class="jumbotron text-center">
+                  <h3>Let the world know how you choose to win</h3>
+
+                  <form action="#">
+                    <ul id="text-nav" class="list-inline text-center text-justify input-fields text-uppercase">
+                      <li>
+                        <span>My name is</span>
+                      </li>
+                      <li>
+                        <input type="text" onblur="if (this.value == '') {this.value = '(Name)';}" onfocus="if(this.value == '(Name)') {this.value = '';}" value="(Name)" id="name">
+                      </li>
+                      <li>
+                        <span>And in</span>
+                      </li>
+                      <li>
+                        <input type="text" onblur="if (this.value == '') {this.value = '(gift, talent, skill)';}" onfocus="if(this.value == '(gift, talent, skill)') {this.value = '';}" value="(gift, talent, skill)" id="skill">
+                      </li>
+                    </ul>
+                  </form>
+
+                  <h2 class="text-uppercase">I choose to win!</h2>
+
+                  <div class="row">
+                    <div class="col-md-offset-2 col-md-8">
+                      <button class="btn btn-block btn-lg btn-danger" id="share">Share with the world</button>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="bottom-text text-uppercase text-center">
+                #ichoosetowin
+              </div>
+
+              <h4 class="text-uppercase text-center heading">WINNING IS </h4>
+            </div>
+
+          </div>
+
+          <ul class="rotator">
+            <li>
+              <h4 class="text-center">loving God completely, myself correctly and others compassionately.</h4>
+            </li>
+            <li>
+              <h4 class="text-center">Trusting God's Word, standing on His promises and obeying His commands.</h4>
+            </li>
+            <li>
+              <h4 class="text-center">Unleashing my God-given gifts to positively impact the world.</h4>
+            </li>
+            <li>
+              <h4 class="text-center">Being unapologetically me: bold, brave and brilliant for God's glory!</h4>
+            </li>
+            <li>
+              <h4 class="text-center">Saying I'm done to anything and anyone holding me back.</h4>
+            </li>
+            <li>
+              <h4 class="text-center">Courage in action.</h4>
+            </li>
+          </ul>
+
+          <!-- Indicators -->
+          <!--<ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+          </ol>-->
+        </div>
+      </section>
+      <!--  \ banner container / -->
+      <!--  / content container \ -->
+      <section id="contentCntr">
+        <!--  / text box \ -->
+        <article class="textBox">
+          <div class="container-fluid">
+            <div class="instagram">
+                <!--<img src="images/instagram.jpg" alt="">-->
+                <!-- SnapWidget -->
+<script src="http://snapwidget.com/js/snapwidget.js"></script>
+<iframe src="http://snapwidget.com/in/?h=aWNob29zZXRvd2lufGlufDI5MHw0fDZ8fG5vfDV8ZmFkZUlufG9uU3RhcnR8bm98eWVz&ve=121015" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;"></iframe>
+                <!-- instalink plugin -->
+                <div data-il 
+                    data-il-client-id="60df6e69f45a4abfba4aa8436c2c2f11"
+                    data-il-username="ichoosetowin"
+                    data-il-hashtag=""
+                    data-il-lang="en"
+                    data-il-show-heading="false"
+                    data-il-scroll="false"
+                    data-il-width="100%"
+                    data-il-height="800px"
+                    data-il-image-size="large"
+                    data-il-bg-color="#285989"
+                    data-il-content-bg-color="#F8F8F8"
+                    data-il-font-color="#FFFFFF"
+                    data-il-ban="">
+                </div>
+            </div>
+            <div class="greybox">
+
+              <div class="left">
+                <img src="images/pic3.jpg" alt="">
+                  <img src="images/ichooselogo.png" alt="">
+                            </div>
+              <div class="right">
+                <h3>who we are</h3>
+                <p>I choose to win is a bold statement of victory. </p>
+                <p>Winning, by our definition is living out the boldness, braveness and brilliance we naturally possesses when unleashing our God-given gifts to impact the world. Therefore winning is different for each of us. Winning is choosing to be true to ourselves, authentic and unapologetic. </p>
+                <p>It’s a clear announcement of one’s expectation in life. Winning begins with a choice, and is followed by an attitude and accompanied by action. It’s accepting the responsibility for whatever is required – including seeing myself as a winner capable of doing great things to positively impact the world. Let’s start a movement – women who are winning!  </p>
+                <p>
+                  Today, own your victory. Let’s remind the world who you are, whose you are – and what you choose to do. Let’s flood social media with positive images of women who will NOT give up, nor give in, but women who, in life, choose to win!  #Ichoosetowin
+                </p>
+                <p>
+                    To learn more about I Choose To Win, the non-profit organization, visit ichoosetowin.org
+                </p>
+              </div>
+            </div>
+
+            <div class="joinus text-center">
+              <h5>Join us! Women on the journey to live our best lives, now.  </h5>
+              <a href="https://confirmsubscription.com/h/t/93417C4BC7905937" target="_blank">Click here to join us</a>
+            </div>
+
+          </div>
+
+        </article>
+        <!--  \ text box / -->
+        <!-- Modal -->
+        <div class="modal fade modal-custom" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">
+                  <span>Move the text up and down</span>
+                </h4>
+              </div>
+              <div class="modal-body" id="screenshot">
+                <div id="containment" class="text-block text-center" style="background-image:url(images/modal-pic.jpg)">
+                  <span class="overlay" id="brightness_value"></span>
+                  <div id="draggable_text">
+                    <h4>#ichoosetowin</h4>
+                    <h3>
+                      My name is <span id="name_value"></span> And in <span id="skill_value"></span>
+                    </h3>
+                    <span class="largetext">I choose to win!</span>
+                  </div>
+                  <h5>
+                    Let the world know how you choose to win<br>
+                      <a href="#">www.ichoosetowin.com</a>
+                    </h5>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <div class="range-slider-box">
+                  <ul class="list-unstyled">
+                    <li>
+                      <div class="left">scale image</div>
+                      <div class="right">
+                        <div class="range-slider" id="scale_image"></div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="left">Lightness/ darkness</div>
+                      <div class="right">
+                        <div class="range-slider" id="brightness"></div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <h5 id="loader" style="display:none;">
+                  <i class="fa fa-spinner fa-pulse"></i> Hold on, we are preparing your statement of victory...
+                </h5>
+                <ul class="social-media list-inline text-center" id="social_share" style="display:none;">
+                  <li>
+                    <a href="javascript:void(0)" download="ichoosetowin" id="download_image">
+                      <i class="fa fa-desktop"></i>
+                    </a>
+                  </li>
+                  <li class="share-pinterest">
+                    <a id="pinterest-share-link" href="" data-pin-do="buttonBookmark" target="_blank">
+                        <i class="fa fa-pinterest-p"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a id="fb-share-link" href="javascript:void(0)" data-fburl="" >
+                      <i class="fa fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  @*<li>
+                    <a href="#">
+                      <i class="fa fa-instagram"></i>
+                    </a>
+                  </li>*@
+                  <li>
+                    <a href="#">
+                      <i id="show_email_modal" class="fa fa-envelope"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a id="twitter-share-link" href="https://twitter.com/share" class="twitter-share-button" data-url="" data-count="none" data-hashtags="ichoosetowin" data-dnt="true">Tweet</a>
+                  </li>
+                </ul>
+                 <span id="terms-chk-container" style="display:none;"><input type="checkbox" id="terms-chk" checked  /><a href="/terms" target="_blank">I agree to the ICTW terms</a></span>
+                <a class="btn btn-default btn-block" href="javascript:void(0)" id="upload_bg">
+                  <i class="custom-icon camera"></i> upload a photo
+                </a>
+                <a class="btn btn-default btn-block" href="javascript:void(0)" id="share_with_world">
+                  <i class="fa fa-share-alt"></i> Share with the world
+                </a>
+                <a class="btn btn-default btn-block" href="index" id="start_over" style="display:none;">
+                  <i class="fa fa-refresh"></i> start over
+                </a>
+                <input type="file" id="input_img" style="display:none;" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade modal-custom email-modal" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-body">
+                <input id="to_email_address" placeholder="(Email Address)" type="text" class="input-lg" />
+                <a class="btn btn-default btn-block" href="javascript:void(0)" id="send_email">
+                  <i class="fa fa-share-alt"></i> Send Email
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--  \ content container / -->
+      <!--  / footer container \ -->
+      <footer id="footerCntr" class="container-fluid">
+
+        <div class="row">
+          <div class="col-sm-6">
+            <p>&copy; 2014 I Choose To Win, All Rights Reserved</p>
+          </div>
+          <div class="col-sm-6 text-right">
+            <ul class="list-inline">
+              <li>
+                <a href="https://twitter.com/Ichoosewinning" target="_blank">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/ichoosetowin.org" target="_blank">
+                  <i class="fa fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://instagram.com/ichoosetowin/" target="_blank">
+                  <i class="fa fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/company/i-choose-to-win" target="_blank">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+      <!--  \ footer container / -->
+    </section>
+    <!--  \ wrapper / -->
+   
+  </body>
+  })
+
+  @html.block("scripts", function(model){
+  <script src="js/lib/jquery/dist/jquery.js"></script>
+  <script src="js/lib/instalink/instalink-1.7.0.min.js"></script>
+  <script src="js/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="js/lib/bxslider-4/dist/jquery.bxslider.min.js"></script>
+  <script src="js/lib/html2canvas/html2canvas.js"></script>
+  <script src="js/lib/jquery-ui/jquery-ui.js"></script>
+  <script src="js/lib/jquery-ui-touch-punch/jquery.ui.touch-punch.js"></script>
+  <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+  <script src="js/custom.js"></script>
+
+  })
+
+</html>

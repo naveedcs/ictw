@@ -1,0 +1,213 @@
+<!doctype html>
+<html ng-app="ic2w">
+<head>
+
+    <title>@model.title</title>
+                                                            
+    @html.block("style", function(model){
+        <link rel="stylesheet" href="js/lib/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="js/lib/bootstrap/dist/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="js/lib/bxslider-4/dist/jquery.bxslider.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/jquery-ui.css">
+        <link rel="stylesheet" href="css/fonts.css">
+        <link rel="stylesheet" href="css/global.css">
+    })
+</head>
+  
+    @html.block("body",function(model){
+        <body>            
+            <div id="fb-root"></div>
+            <script>
+              console.log("initializing FB");
+              window.fbAsyncInit = function() {
+              FB.init({
+              appId : '1638209386449579',
+              xfbml : true,
+              version : 'v2.4'
+              });
+              };
+
+              (function(d, s, id){
+              var js, fjs = d.getElementsByTagName(s)[0];
+              if (d.getElementById(id)) {return;}
+              js = d.createElement(s); js.id = id;
+              js.src = "//connect.facebook.net/en_US/sdk.js";;
+              fjs.parentNode.insertBefore(js, fjs);
+              }(document, 'script', 'facebook-jssdk'));
+            </script>
+
+            @*<div id="img_preview" style="padding-left:35%; width:100%;height:400px;">
+                <img style='display:block; width:400px;height:400px;' id='base64image' ng-src='{{imageData}}' />
+            </div>*@
+          
+         
+          
+            <section id="wrapper">
+
+                <!--  / content container \ -->
+                <section id="contentCntr">
+
+                    <!--  / banner container \ -->
+                    <section id="bannerCntr">
+
+                        <div class="bottom-text text-uppercase text-center container-1" style="background-image:url('images/container-1-bg.jpg'); background-repeat:no-repeat; background-size:cover;">
+                            <p>Join us! Women on the journey to live our best lives, now.</p>
+                            <h1>#ichoosetowin</h1>
+                            <div id="img_preview">
+                               <h5 id="loader">
+                                  <i class="fa fa-spinner fa-pulse"></i> Hold on, we are preparing your statement of victory...
+                                </h5>
+                            </div>
+                            <ul class="social-media list-inline text-center" id="social_share">
+                                <li id="download-li" style="display:none;">
+                                    <a href="javascript:void(0)" download="ichoosetowin" id="download_image">
+                                        <i class="fa fa-desktop"></i>
+                                    </a>
+                                </li>
+                                <li class="share-pinterest">
+                                    <a id="pinterest-share-link" href="" data-pin-do="buttonBookmark" target="_blank">
+                                        <i class="fa fa-pinterest-p"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a id="fb-share-link" href="javascript:void(0)" data-fburl="">
+                                        <i class="fa fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                @*<li>
+                                    <a href="#">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </li>*@
+                                <li id="envelope-li" style="display:none;">
+                                    <a href="#">
+                                        <i id="show_email_modal" class="fa fa-envelope"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            <a class="create" href="/index" target="_blank" id="share_with_world">
+                                Create your own
+                            </a>
+                        </div>
+
+                        <h4 class="text-uppercase text-center heading">WINNING IS </h4>
+                        <ul class="rotator">
+                            <li>
+                                <h4 class="text-center">loving God completely, myself correctly and others compassionately.</h4>
+                            </li>
+                            <li>
+                                <h4 class="text-center">Trusting and obeying God's Word, standing on His promises and responding to His promptings.</h4>
+                            </li>
+                            <li>
+                                <h4 class="text-center">Living out loud and on purpose.</h4>
+                            </li>
+                            <li>
+                                <h4 class="text-center">Being bold, brave and brilliant for God's glory.</h4>
+                            </li>
+                            <li>
+                                <h4 class="text-center">Being unapologetically me!</h4>
+                            </li>
+                            <li>
+                                <h4 class="text-center">Courage in action.</h4>
+                            </li>
+                            <li>
+                                <h4 class="text-center">Serving others with the gifts given to me.</h4>
+                            </li>
+                            <li>
+                                <h4 class="text-center">Saying I'm done to everything and everyone holding me back.</h4>
+                            </li>
+                            <li>
+                                <h4 class="text-center">Saying "yes" to the potential that lives in me.</h4>
+                            </li>
+                            <li>
+                                <h4 class="text-center">Giving myself permission to enjoy the fullness of Christ.</h4>
+                            </li>
+                            <li>
+                                <h4 class="text-center">living victoriously before victory is fully realized.</h4>
+                            </li>
+                            <li>
+                                <h4 class="text-center">What every woman of faith should experience daily!</h4>
+                            </li>
+                            <li>
+                                <h4 class="text-center">Grabbing life by the horns.</h4>
+                            </li>
+                        </ul>
+                    </section>
+                    <!--  \ banner container / -->
+
+                    <!--  / text box \ -->
+                    <article class="textBox">
+                        <div class="container-fluid">
+                            <div class="joinus text-center">
+                                <h5>Join us! Women on the journey to live our best lives, now.  </h5>
+                                <a href="https://confirmsubscription.com/h/t/93417C4BC7905937" target="_blank">Click here to join us</a>
+                            </div>
+                        </div>
+                    </article>
+                    <!--  \ text box / -->
+                    
+                    <!-- Modal -->
+                    <div class="modal fade modal-custom email-modal" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-body">
+                            <input id="to_email_address" placeholder="(Email Address)" type="text" class="input-lg" />
+                            <a class="btn btn-default btn-block" href="javascript:void(0)" id="send_email">
+                              <i class="fa fa-share-alt"></i> Send Email
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </section>
+                <!--  \ content container / -->
+
+                <!--  / footer container \ -->
+                <footer id="footerCntr" class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <p>&copy; 2014 I Choose To Win, All Rights Reserved</p>
+                        </div>
+                        <div class="col-sm-6 text-right">
+                            <ul class="list-inline">
+                                <li>
+                                    <a href="https://twitter.com/Ichoosewinning" target="_blank">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.facebook.com/ichoosetowin.org" target="_blank">
+                                        <i class="fa fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://instagram.com/ichoosetowin/" target="_blank">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/company/i-choose-to-win" target="_blank">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </footer>
+                <!--  \ footer container / -->
+            </section>
+        </body>
+    })
+    
+    @html.block("scripts", function(model){
+        <script src="js/lib/jquery/dist/jquery.js"></script>
+        <script src="js/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="js/previewImage.js"></script>
+     
+	})
+    
+</html>

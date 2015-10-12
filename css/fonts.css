@@ -1,0 +1,65 @@
+
+@font-face {
+    font-family: 'lavanderia_sturdysturdy';
+    src: url('../fonts/lavanderia_sturdy-webfont.eot');
+    src: url('../fonts/lavanderia_sturdy-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lavanderia_sturdy-webfont.woff2') format('woff2'),
+         url('../fonts/lavanderia_sturdy-webfont.woff') format('woff'),
+         url('../fonts/lavanderia_sturdy-webfont.ttf') format('truetype'),
+         url('../fonts/lavanderia_sturdy-webfont.svg#lavanderia_sturdysturdy') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'league_gothicregular';
+    src: url('../fonts/league_gothic-webfont.eot');
+    src: url('../fonts/league_gothic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/league_gothic-webfont.woff2') format('woff2'),
+         url('../fonts/league_gothic-webfont.woff') format('woff'),
+         url('../fonts/league_gothic-webfont.ttf') format('truetype'),
+         url('../fonts/league_gothic-webfont.svg#league_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'latobold';
+    src: url('../fonts/lato_700.eot');
+    src: url('../fonts/lato_700.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato_700.woff2') format('woff2'),
+         url('../fonts/lato_700.woff') format('woff'),
+         url('../fonts/lato_700.ttf') format('truetype'),
+         url('../fonts/lato_700.svg#latobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'latoblack';
+    src: url('../fonts/lato_900.eot');
+    src: url('../fonts/lato_900.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato_900.woff2') format('woff2'),
+         url('../fonts/lato_900.woff') format('woff'),
+         url('../fonts/lato_900.ttf') format('truetype'),
+         url('../fonts/lato_900.svg#latoblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'latoregular';
+    src: url('../fonts/lato_regular.eot');
+    src: url('../fonts/lato_regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato_regular.woff2') format('woff2'),
+         url('../fonts/lato_regular.woff') format('woff'),
+         url('../fonts/lato_regular.ttf') format('truetype'),
+         url('../fonts/lato_regular.svg#latoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

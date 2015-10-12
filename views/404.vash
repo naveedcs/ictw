@@ -1,0 +1,24 @@
+<!doctype html>
+<html ng-app="lpapp">
+<head>
+
+    <title>@model.title</title>
+                                                            
+    @html.block("style", function(model){
+       
+    })
+</head>
+  
+    @html.block("body",function(model){
+        <body ng-controller="ProductsController" ng-init="productId=@model.productID">            
+
+            <h3>Code: @model.code</h3>
+            <h3>Message: @model.message</h3>
+          
+        </body>
+    })
+    
+    @html.block("scripts", function(model){
+	})
+    
+</html>
