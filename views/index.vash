@@ -258,9 +258,11 @@
                       <i id="show_email_modal" class="fa fa-envelope"></i>
                     </a>
                   </li>
-                  <li>
-                    <a id="twitter-share-link" href="https://twitter.com/share" class="twitter-share-button" data-url="" data-count="none" data-hashtags="ichoosetowin" data-dnt="true"><i class="fa fa-twitter"></i></a>
-                  </li>
+				  <li>
+                    <a href="#">
+                      <i id="show_email_modal" class="fa fa-envelope"></i>
+                    </a>
+                  </li>                  
                 </ul>
                  <span id="terms-chk-container" style="display:none;"><input type="checkbox" id="terms-chk" checked  /><a href="/terms" target="_blank">I agree to the ICTW terms</a></span>
                 <a class="btn btn-default btn-block" href="javascript:void(0)" id="upload_bg">
