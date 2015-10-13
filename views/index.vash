@@ -149,11 +149,22 @@
         <article class="textBox">
           <div class="container-fluid">
             <div class="instagram">
-                <!--<img src="images/instagram.jpg" alt="">-->
-                <!-- SnapWidget -->
-<script src="http://snapwidget.com/js/snapwidget.js"></script>
-<iframe src="http://snapwidget.com/in/?u=aWNob29zZXRvd2lufGlufDI5MHw0fDZ8fG5vfDAgMCA1IDR8bm9uZXxvblN0YXJ0fG5vfHllcw==&ve=121015" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;"></iframe>
                 <!-- instalink plugin -->
+				  <div data-il 
+                    data-il-client-id="60df6e69f45a4abfba4aa8436c2c2f11"
+                    data-il-username="ichoosetowin"
+                    data-il-hashtag=""
+                    data-il-lang="en"
+                    data-il-show-heading="false"
+                    data-il-scroll="false"
+                    data-il-width="100%"
+                    data-il-height="1800px"
+                    data-il-image-size="large"
+                    data-il-bg-color="#285989"
+                    data-il-content-bg-color="#F8F8F8"
+                    data-il-font-color="#FFFFFF"
+                    data-il-ban="">
+                </div>
             </div>
             <div class="greybox">
 
