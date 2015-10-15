@@ -78,7 +78,7 @@ h3 {
 h4 {
     margin-top: 15px;
     font-size: 30px;
-    color: #cfcecf;
+    color: #666;
 }
 
 h5 {
@@ -507,8 +507,11 @@ p {
         .textBox .joinus h5 {
             margin: 0px 0 20px;
         }
+        .textBox .joinus h5 a {
+            color: #a92498;
+        }
 
-        .textBox .joinus a {
+        .textBox .joinus a.link {
             font-size: 18px;
             color: #d9d7d7;
             text-decoration: underline;

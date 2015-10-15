@@ -52,7 +52,7 @@
                     <section id="bannerCntr">
 
                         <div class="bottom-text text-uppercase text-center container-1" style="background-image:url('images/container-1-bg.jpg'); background-repeat:no-repeat; background-size:cover;">
-                            <p>Join us! Women on the journey to live our best lives, now.</p>
+                            <p><a href="http://ichoosetowin.org" target="_blank">Join us! Women on the journey to live our best lives, now.</a></p>
                             <h1>#ichoosetowin</h1>
                             <div id="img_preview">
                                <h5 id="loader">
@@ -140,8 +140,8 @@
                     <article class="textBox">
                         <div class="container-fluid">
                             <div class="joinus text-center">
-                                <h5>Join us! Women on the journey to live our best lives, now.  </h5>
-                                <a href="https://confirmsubscription.com/h/t/93417C4BC7905937" target="_blank">Click here to join us</a>
+                                <h5><a href="http://ichoosetowin.org" target="_blank">Join us! Women on the journey to live our best lives, now.</a></h5>
+                                <a href="https://confirmsubscription.com/h/t/93417C4BC7905937" target="_blank" class="link">Click here to join us</a>
                             </div>
                         </div>
                     </article>

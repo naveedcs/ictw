@@ -158,10 +158,11 @@
             </div>
             <div class="greybox">
 
-              <div class="left">
-                <img src="images/pic3.jpg" alt="">
-                  <img src="images/ichooselogo.png" alt="">
-                            </div>
+				<div class="left">
+					<img src="images/pic3.jpg" alt="">
+					<p>Melonie Butler, Founder</p>
+					<img src="images/ichooselogo.png" alt="">
+				</div>
               <div class="right">
                 <h3>who we are</h3>
                 <p>I choose to win is a bold statement of victory. </p>
@@ -177,8 +178,8 @@
             </div>
 
             <div class="joinus text-center">
-              <h5>Join us! Women on the journey to live our best lives, now.  </h5>
-              <a href="https://confirmsubscription.com/h/t/93417C4BC7905937" target="_blank">Click here to join us</a>
+              <h5><a href="http://ichoosetowin.org" target="_blank">Join us! Women on the journey to live our best lives, now.</a> </h5>
+              <a href="https://confirmsubscription.com/h/t/93417C4BC7905937" target="_blank" class="link">Click here to join us</a>
             </div>
 
           </div>
