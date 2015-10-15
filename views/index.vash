@@ -12,11 +12,9 @@
           <link rel="stylesheet" href="css/font-awesome.min.css">
             <link rel="stylesheet" href="css/jquery-ui.css">
               <link rel="stylesheet" href="css/fonts.css">
-                <link rel="stylesheet" href="css/global.css">
+                <link rel="stylesheet" href="js/lib/instalink/instalink-1.7.0.min.css"> 
+                  <link rel="stylesheet" href="css/global.css">
           
-<link href="js/lib/instalink/instalink-1.7.0.min.css" rel="stylesheet"> 
-
-       
     })
 </head>
 
@@ -158,13 +156,13 @@
                 <!-- instalink plugin -->
                 <div data-il
                    data-il-client-id="c4529a7cdc5d44c497339f32ced8c6b4"
-                   data-il-username="instagram"
+                   data-il-username="Ichoosetowin"
                    data-il-hashtag=""
                    data-il-lang="en"
-                   data-il-show-heading="true"
+                   data-il-show-heading="false"
                    data-il-scroll="false"
                    data-il-width="100%"
-                   data-il-height="1000px"
+                   data-il-height="1400px"
                    data-il-image-size="large"
                    data-il-bg-color="#a92498"
                    data-il-content-bg-color="#ffffff"

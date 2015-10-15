@@ -490,6 +490,7 @@ p {
             width: 100%;
         }
 */
+#instaLink_0 .instalink-feed-post span { width: 100% !important; height: 100% !important; }
     .textBox .greybox {
         padding: 75px 50px 20px;
         overflow: hidden;
