@@ -4,6 +4,16 @@
 
     <title>@model.title</title>
                                                             
+    <link rel="stylesheet" href="js/lib/bootstrap/dist/css/bootstrap.min.css">
+      <link rel="stylesheet" href="js/lib/bootstrap/dist/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="js/lib/bxslider-4/dist/jquery.bxslider.min.css">
+          <link rel="stylesheet" href="css/font-awesome.min.css">
+            <link rel="stylesheet" href="css/jquery-ui.css">
+              <link rel="stylesheet" href="css/fonts.css">
+                <link rel="stylesheet" href="css/global.css">
+
+<link href="js/lib/instalink/instalink-1.7.0.min.css" rel="stylesheet"> 
+
     @html.block("style", function(model){
        
     })
@@ -11,30 +21,41 @@
   
     @html.block("body",function(model){
         <body ng-controller="ProductsController" ng-init="productId=@model.productID">
-            <p>
-                The entire contents of this website, including images and text, are protected under U.S. and international copyright law. 
-                With the exception of fair use by our customers, it is unlawful to copy or reproduce any of the content of this website. 
-                Unauthorized commercial use of text or images from this website is specifically not permitted and is illegal.
-            </p>
-            <p>
-                You are welcome to submit suggestions, comments, or photographs. If you submit content you grant Carol's Daughter a non-exclusive, royalty-free, perpetual, irrevocable right to use, reproduce, modify, publish and distribute in any media. The name that is used when submitting such content may also be used. You represent and warrant that the content you provide is accurate, and that you ho
-                ld rights to such content. 
-            </p>
-            <p>
-                In use of gift messages and e-mailing a page to a friend, contents can not be obscene, threatening, defamatory, invasive of privacy, contain viruses, commercial solicitation, chain letter, mass mailing or any form of "spam." 
-            </p>
-            <p>
-                When registering for an account, you will have a password and the option to save credit card information. You are responsible for maintaining the confidentiality of your password, and are fully responsible for all activities that occur under your password or account. 
-            </p>
-            <p>
-                Some information on the web site may contain typographical errors or other inaccuracies, be incomplete or not up-to-date. Some of this information may relate to product description, price or availability.
-                We appreciate customer feedback if you find an error on the site. We will correct mistakes with or without notice. We apologize, in advance, for any inconvenience caused.
-            </p>
-            <p>
-                Ichoosetowin.com Terms<br />
-                I have all of the necessary rights to the content I have posted. I agree that Carol’s Daughter may re-post my content in any media in connection with the brand.
-            </p>
-        </body>
+
+    <!--  / wrapper \ -->
+    <section id="wrapper">
+
+      <!--  / content container \ -->
+      <section id="contentCntr">
+        <!--  / text box \ -->
+        <article class="innerBox">
+        <div class="container">
+            <a href="/index" class="btn btn-link"><i class="fa fa-chevron-left"></i> Back</a>
+
+            <p><strong>1.</strong> The entire contents of this website, including images and text, are protected under U.S. and international copyright law. With the exception of fair use by our customers, it is unlawful to copy or reproduce any of the content of this website. Unauthorized commercial use of text or images from this website is specifically not permitted and is illegal.</p>
+
+            <p><strong>2.</strong> You are welcome to submit suggestions, comments, or photographs. If you submit content, then you grant I Choose To Win a non-exclusive, royalty-free, perpetual, irrevocable right to use, reproduce, modify, publish and distribute in any media. The name that is used when submitting such content may also be used. You represent and warrant that the content you provide is accurate, and that you hold rights to such content.</p>
+
+            <p><strong>3.</strong> In use of gift messages and e-mailing a page to a friend, contents cannot be obscene, threatening, defamatory, invasive of privacy, contain viruses, commercial solicitation, chain letter, mass mailing or any form of "spam."</p>
+
+            <p><strong>4.</strong> Some information on the website may contain typographical errors or other inaccuracies, be incomplete or not up-to-date. Some of this information may relate to product description, price or availability. We appreciate feedback if you find an error on the site. We will correct mistakes with or without notice. We apologize, in advance, for any inconvenience caused.</p>
+
+            <h3>ichoosetowin.com Terms</h3>
+            <p>I have all of the necessary rights to the content I have posted. I agree that I Choose To Win may re-post my content in any media in connection with the brand.</p>
+            <p><a href="#">http://ictw.azurewebsites.net/terms</a></p>
+        
+        </div>
+        </article>
+        <!--  \ text box / -->
+
+      </section>
+      <!--  \ content container / -->
+
+</section>
+<!--  \ wrapper / -->
+
+
+    </body>
     })
     
     @html.block("scripts", function(model){

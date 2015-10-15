@@ -172,13 +172,13 @@
                   Today, own your victory. Let’s remind the world who you are, whose you are – and what you choose to do. Let’s flood social media with positive images of women who will NOT give up, nor give in, but women who, in life, choose to win!  #Ichoosetowin
                 </p>
                 <p>
-                    To learn more about I Choose To Win, the non-profit organization, visit ichoosetowin.org
+                    To learn more about I Choose To Win, the non-profit organization, visit <a href="http://ichoosetowin.org" target="_blank">ichoosetowin.org</a>
                 </p>
               </div>
             </div>
 
             <div class="joinus text-center">
-              <h5><a href="http://ichoosetowin.org" target="_blank">Join us! Women on the journey to live our best lives, now.</a> </h5>
+              <h5>Join us! Women on the journey to live our best lives, now.</h5>
               <a href="https://confirmsubscription.com/h/t/93417C4BC7905937" target="_blank" class="link">Click here to join us</a>
             </div>
 
@@ -260,13 +260,15 @@
                       <i id="show_email_modal" class="fa fa-envelope"></i>
                     </a>
                   </li>
-				  <li>
-                    <a id="twitter-share-link" href="https://twitter.com/share" class="twitter-share-button" data-url="" data-count="none" data-hashtags="ichoosetowin" data-dnt="true">
+				          <li>
+                  <div class="twitter-share-button">
+                    <a id="twitter-share-link" href="https://twitter.com/share" class="" data-url="" data-count="none" data-hashtags="ichoosetowin" data-dnt="true">
                      <i class="fa fa-twitter"></i>
                     </a>
+                    </div>
                   </li>                  
                 </ul>
-                 <span id="terms-chk-container" style="display:none;"><input type="checkbox" id="terms-chk" checked  /><a href="/terms" target="_blank">I agree to the ICTW terms</a></span>
+                 <span id="terms-chk-container" style="display:none;"><input type="checkbox" id="terms-chk" checked  /><a href="/terms">I agree to the ICTW terms</a></span>
                 <a class="btn btn-default btn-block" href="javascript:void(0)" id="upload_bg">
                   <i class="custom-icon camera"></i> upload a photo
                 </a>

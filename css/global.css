@@ -387,6 +387,18 @@ p {
     width: 100%;
     z-index: 99;
 }
+.twitter-share-button {
+    padding: 0px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    display: block;
+    line-height: 60px;
+    font-size: 30px;
+    color: #a539a5;
+    width: 65px !important;
+    height: 60px !important;
+    background: #d371d3;
+}
 
 /* ### banner container ### */
 #bannerCntr {
@@ -467,6 +479,9 @@ p {
     width: 100%;
 }
 
+/* ### text box ### */
+.innerBox { padding: 50px 0; }
+
     .textBox .instagram {
         margin: 15px 0;
     }
@@ -489,7 +504,13 @@ p {
         .textBox .greybox p {
             margin: 20px 0 35px;
         }
-
+        .textBox .greybox p a {
+            color: #fff;
+            text-decoration: underline;
+        }
+        .textBox .greybox p a:hover {
+            text-decoration: none;
+        }
         .textBox .greybox img {
             margin-bottom: 25px;
         }
@@ -522,6 +543,12 @@ p {
     color: #fff;
     background: none;
     border: none;
+    text-align: center;
+}
+.modal-custom .modal-header, .modal-custom .modal-footer span a {
+    color: #fff;
+    font-size: 16px;
+
 }
 
 .modal-custom .modal-content {
