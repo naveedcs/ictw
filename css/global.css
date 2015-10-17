@@ -888,6 +888,7 @@ p {
 		font-size: 40px;
 		line-height: 40px;
     }
+	.modal-custom button.close { right: 25px; top: 0;}
 	 .container-1 h1, .btn-lg, .container-1 h1, .container-1 .social-media, #bannerCntr .block .jumbotron h3 , #bannerCntr .block .jumbotron h2  { letter-spacing: 0;}
 	.social-media li { line-height: 40px; height: 40px; width: 40px; font-size: 20px; }
 	.btn-default { font-size: 24px; }
