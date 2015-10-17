@@ -626,7 +626,7 @@ p {
 .modal-custom h3 {
     margin: 0 0 15px 0;
     font-size: 35px;
-    line-height: 48px;
+    line-height: 60px;
 }
 
     .modal-custom h3 span {
@@ -883,11 +883,6 @@ p {
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
 
-    .modal-custom .largetext {
-        margin-bottom: 25px;
-		font-size: 40px;
-		line-height: 40px;
-    }
 	.modal-custom button.close { right: 25px; top: 0;}
 	 .container-1 h1, .btn-lg, .container-1 h1, .container-1 .social-media, #bannerCntr .block .jumbotron h3 , #bannerCntr .block .jumbotron h2  { letter-spacing: 0;}
 	.social-media li { line-height: 40px; height: 40px; width: 40px; font-size: 20px; }
@@ -901,13 +896,13 @@ p {
         padding: 25px 15px 10px 15px;
         min-height: 0; 
     }
-	
-	.modal-custom h3 {
-		font-size: 24px;
-	}
-	.modal-custom h3 span {
-		font-size: 30px;
-	}
+	.modal-custom h4 { margin: 0; }
+	.modal-custom h3 { padding: 20px 0; margin: 0; font-size: 24px; line-height: 50px; }
+	.modal-custom h3 span { font-size: 30px; }
+	.modal-custom h5 { padding-bottom: 25px; }
+	.modal-custom h5 a { display: inline-block; padding: 15px 0 0 0; }
+	.modal-custom .largetext { padding: 0 0 25px 0; margin-bottom: 0; font-size: 40px; line-height: 40px; }
+
 
     #bannerCntr .block .jumbotron {
         max-width: none;
