@@ -289,9 +289,7 @@
                     </a>
                   </li>*@
                   <li>
-                      <i class="fa fa-envelope"></i>
-                    <a id="show_email_modal" href="">
-                    </a>
+                      <i  id="show_email_modal" class="fa fa-envelope"></i>
                   </li>
 				          <li>
                       <i class="fa fa-twitter"></i>
