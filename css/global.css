@@ -181,6 +181,8 @@ p {
     }
 
 .rotate-btn {
+	cursor: pointer;
+	padding: 5px;
 	color: #fff;
 	font-size: 24px;
 }
@@ -591,6 +593,7 @@ p {
         min-height: 520px;
         position: relative;
         z-index: 9;
+        overflow: hidden;
     }
 	.modal-block-image {
 		position:absolute;
@@ -882,7 +885,16 @@ p {
 
     .modal-custom .largetext {
         margin-bottom: 25px;
+		font-size: 40px;
+		line-height: 40px;
     }
+	.social-media li { line-height: 40px; height: 40px; width: 40px; font-size: 20px; }
+	.btn-default { font-size: 24px; }
+	.btn-default .custom-icon { height: 20px; width: 28px; }
+	
+	.modal-custom .range-slider-box li .left { float: left;	width: 120px; }
+	.modal-custom .range-slider-box li .right { float: right; width: 150px; }
+	.modal-custom .range-slider-box li { padding: 10px 0; }
     .modal-custom .modal-body .text-block {
         padding: 25px 15px 10px 15px;
         min-height: 0; 
@@ -902,7 +914,8 @@ p {
 
         #bannerCntr .block .jumbotron .input-fields span {
             text-align: right;
-            padding-right: 25px;
+            padding: 20px 25px 0 0;
+			line-height: 24px;
         }
 
         #bannerCntr .block .jumbotron .input-fields input[type=text] {

@@ -138,9 +138,26 @@ $(document).ready(function () {
         }
     }
 
-    $('#rotate-right').click(function(e) {
-	    $('#containment').css('transform', 'rotate(' + 90 + 'deg)');
-    });
+	var rotation = 0;
+
+	jQuery.fn.rotate = function(degrees) {
+		$(this).css({'-webkit-transform' : 'rotate('+ degrees +'deg)',
+					 '-moz-transform' : 'rotate('+ degrees +'deg)',
+					 '-ms-transform' : 'rotate('+ degrees +'deg)',
+					 'transform' : 'rotate('+ degrees +'deg)'});
+		return $(this);
+	};
+
+	$('#rotate-right').click(function() {
+		rotation += 90;
+		$('#containment').rotate(rotation);
+	});
+
+	$('#rotate-left').click(function() {
+		rotation -= 90;
+		$('#containment').rotate(rotation);
+	});
+
 
     $("#fb-share-link").click(function () {
         if ($("#terms-chk").is(':checked')) {
