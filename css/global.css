@@ -180,6 +180,11 @@ p {
         border-color: #a92498;
     }
 
+.rotate-btn {
+	color: #fff;
+	font-size: 24px;
+}
+
 .modal-backdrop.in {
     opacity: 0.8;
 }
@@ -585,11 +590,19 @@ p {
         color: #fff;
         min-height: 520px;
         position: relative;
+        z-index: 9;
+    }
+	.modal-block-image {
+		position:absolute;
+		left:0;
+		top:0;
+		height:100%;
+		width:100%;
+		z-index: -1;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
-        z-index: 9;
-    }
+	}
 
 .modal-custom .modal-title {
     font-size: 13px;
@@ -712,6 +725,7 @@ p {
     color: #fff;
     top: 10px;
     opacity: 1;
+    z-index: 9999;
 }
 
 .email-modal input {
@@ -866,9 +880,18 @@ p {
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
 
+    .modal-custom .largetext {
+        margin-bottom: 25px;
+    }
+    .modal-custom .modal-body .text-block {
+        padding: 25px 15px 10px 15px;
+        min-height: 0; 
+    }
+
     #bannerCntr .block .jumbotron {
         max-width: none;
-        margin: 150px 15px 15px;
+        margin: 140px 15px 15px;
+        padding: 0;
     }
 
         #bannerCntr .block .jumbotron .input-fields li {

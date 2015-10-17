@@ -138,6 +138,10 @@ $(document).ready(function () {
         }
     }
 
+    $('#rotate-right').click(function(e) {
+	    $('#containment').css('transform', 'rotate(' + 90 + 'deg)');
+    });
+
     $("#fb-share-link").click(function () {
         if ($("#terms-chk").is(':checked')) {
             var shareURL = $(this).attr("data-fburl");

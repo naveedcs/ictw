@@ -3,6 +3,9 @@
 <head>
 
     <title>@model.title</title>
+
+    <!-- Responsive meta tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
                                                             
     @html.block("style", function(model){
         <link rel="stylesheet" href="js/lib/bootstrap/dist/css/bootstrap.min.css">

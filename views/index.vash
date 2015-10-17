@@ -4,6 +4,8 @@
 
     <title>@model.title</title>
 
+    <!-- Responsive meta tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     @html.block("style", function(model){
     <link rel="stylesheet" href="js/lib/bootstrap/dist/css/bootstrap.min.css">
@@ -215,7 +217,8 @@
                 </h4>
               </div>
               <div class="modal-body" id="screenshot">
-                <div id="containment" class="text-block text-center" style="background-image:url(images/modal-pic.jpg)">
+                <div class="text-block text-center">
+					<div id="containment" class="modal-block-image" style=" background-image:url(images/modal-pic.jpg);"></div>
                   <span class="overlay" id="brightness_value"></span>
                   <div id="draggable_text">
                     <h4>#ichoosetowin</h4>
@@ -245,6 +248,20 @@
                         <div class="range-slider" id="brightness"></div>
                       </div>
                     </li>
+                    <li>
+						<div class="left">Rotate Image</div>
+						<div class="right">
+							<div class="row text-center">
+								<div class="col-sm-6">	
+									<span class="rotate-btn" id="rotate-left"><i class="fa fa-rotate-left"></i></span>
+								</div>
+								<div class="col-sm-6">
+									<span class="rotate-btn" id="rotate-right"><i class="fa fa-rotate-right"></i></span>
+								</div>
+							</div>
+						</div>
+                    </li>
+
                   </ul>
                 </div>
                 <h5 id="loader" style="display:none;">
