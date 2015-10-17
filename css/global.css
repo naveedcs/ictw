@@ -296,20 +296,33 @@ p {
 }
 
     .social-media li {
-        padding: 0 2px;
+        margin: 0 2px;
+        padding: 0px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        display: inline-block;
+        line-height: 60px;
+        font-size: 30px;
+        color: #a539a5;
+        position: relative;
+        height: 60px;
+        width: 65px;
+        background: #d371d3;
     }
 
         .social-media li a {
-            padding: 0px;
-            border-radius: 5px;
-            -webkit-border-radius: 5px;
-            display: block;
-            line-height: 60px;
-            font-size: 30px;
-            color: #a539a5;
-            width: 65px;
-            height: 60px;
-            background: #d371d3;
+           position: absolute !important;
+            left: 0;
+            top: 0; height: 100%; width: 100%;
+            opacity: 0;
+        }
+        .social-media li .twitter-share-button {
+            padding: 15px 0;
+            position: absolute !important;
+            left: 0;
+            top: 0;
+            opacity: 0;
+
         }
 
             .social-media li a:hover {
@@ -490,7 +503,7 @@ p {
             width: 100%;
         }
 */
-#instaLink_0 .instalink-feed-post span { width: 100% !important; height: 100% !important; }
+#instaLink_0 .instalink-feed-post span { width: 96% !important; height: 96% !important; }
     .textBox .greybox {
         padding: 75px 50px 20px;
         overflow: hidden;

@@ -252,36 +252,42 @@
                 </h5>
                 <ul class="social-media list-inline text-center" id="social_share" style="display:none;">
                   <li>
-                    <a href="javascript:void(0)" download="ichoosetowin" id="download_image">
                       <i class="fa fa-desktop"></i>
+                    <a href="javascript:void(0)" download="ichoosetowin" id="download_image">
                     </a>
                   </li>
                   <li class="share-pinterest">
-                    <a id="pinterest-share-link" href="" data-pin-do="buttonBookmark" target="_blank">
                         <i class="fa fa-pinterest-p"></i>
+                    <a id="pinterest-share-link" href="" data-pin-do="buttonBookmark" target="_blank">
                     </a>
                   </li>
                   <li>
-                    <a id="fb-share-link" href="javascript:void(0)" data-fburl="" >
                       <i class="fa fa-facebook-f"></i>
+                    <a id="fb-share-link" href="javascript:void(0)" data-fburl="" >
                     </a>
                   </li>
                   @*<li>
-                    <a href="#">
                       <i class="fa fa-instagram"></i>
+                    <a href="#">
                     </a>
                   </li>*@
                   <li>
-                    <a href="#">
-                      <i id="show_email_modal" class="fa fa-envelope"></i>
+                      <i class="fa fa-envelope"></i>
+                    <a id="show_email_modal" href="">
                     </a>
                   </li>
 				          <li>
-                  <div class="twitter-share-button">
-                    <a id="twitter-share-link" href="https://twitter.com/share" class="" data-url="" data-count="none" data-hashtags="ichoosetowin" data-dnt="true">
-                     <i class="fa fa-twitter"></i>
+                      <i class="fa fa-twitter"></i>
+                    <a                       
+                      class="twitter-share-button"
+                      id="twitter-share-link" 
+                      href="https://twitter.com/share"
+                      data-url="http://bit.ly/1LSwf8L"
+                      data-count="none"
+                      data-hashtags="ichoosetowin, statementofvictory"
+                      data-dnt="true">
+
                     </a>
-                    </div>
                   </li>                  
                 </ul>
                  <span id="terms-chk-container" style="display:none;"><input type="checkbox" id="terms-chk" checked  /><a href="/terms">I agree to the ICTW terms</a></span>
