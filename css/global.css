@@ -884,7 +884,7 @@ p {
 @media only screen and (max-width: 767px) {
 
 	.modal-custom button.close { right: 25px; top: 0;}
-	 .container-1 h1, .btn-lg, .container-1 h1, .container-1 .social-media, #bannerCntr .block .jumbotron h3 , #bannerCntr .block .jumbotron h2  { letter-spacing: 0;}
+	 .modal-custom .largetext, .container-1 h1, .btn-lg, .container-1 h1, .container-1 .social-media, #bannerCntr .block .jumbotron h3 , #bannerCntr .block .jumbotron h2  { letter-spacing: 0;}
 	.social-media li { line-height: 40px; height: 40px; width: 40px; font-size: 20px; }
 	.btn-default { font-size: 24px; }
 	.btn-default .custom-icon { height: 20px; width: 28px; }
@@ -897,11 +897,11 @@ p {
         min-height: 0; 
     }
 	.modal-custom h4 { margin: 0; }
-	.modal-custom h3 { padding: 20px 0; margin: 0; font-size: 24px; line-height: 50px; }
-	.modal-custom h3 span { font-size: 30px; }
-	.modal-custom h5 { padding-bottom: 25px; }
+	.modal-custom h3 { padding: 25px 0; margin: 0; font-size: 24px; line-height: 40px; }
+	.modal-custom h3 span { font-size: 26px; }
+	.modal-custom h5 { padding-bottom: 20px; }
 	.modal-custom h5 a { display: inline-block; padding: 15px 0 0 0; }
-	.modal-custom .largetext { padding: 0 0 25px 0; margin-bottom: 0; font-size: 40px; line-height: 40px; }
+	.modal-custom .largetext { padding: 0 0 25px 0; margin-bottom: 0; font-size: 35px; line-height: 40px; }
 
 
     #bannerCntr .block .jumbotron {
