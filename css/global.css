@@ -628,6 +628,7 @@ p {
     font-size: 35px;
     line-height: 60px;
 }
+.modal-custom h3 br { display: none; }
 
     .modal-custom h3 span {
         color: #d371d3;
@@ -895,6 +896,7 @@ p {
     .modal-custom .modal-body .text-block { padding: 15px 7px 10px 7px; min-height: 0; }
 	.modal-custom h4 { margin: 0; }
 	.modal-custom h3 { padding: 25px 0; margin: 0; font-size: 24px; line-height: 40px; }
+	.modal-custom h3 br { display: block; }
 	.modal-custom h3 span { font-size: 26px; }
 	.modal-custom h5 { padding-bottom: 20px; }
 	.modal-custom h5 a { display: inline-block; padding: 15px 0 0 0; }
