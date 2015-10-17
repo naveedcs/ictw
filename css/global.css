@@ -901,6 +901,13 @@ p {
         padding: 25px 15px 10px 15px;
         min-height: 0; 
     }
+	
+	.modal-custom h3 {
+		font-size: 24px;
+	}
+	.modal-custom h3 span {
+		font-size: 30px;
+	}
 
     #bannerCntr .block .jumbotron {
         max-width: none;
