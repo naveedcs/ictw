@@ -7,7 +7,7 @@ $(document).ready(function () {
         max: 200,
         step: 1,
         slide: function (event, ui) {
-            $("#containment").css("background-size", ui.value + "%");
+            $("#containment-set").css("background-size", ui.value + "%");
         }
     });
 
@@ -131,7 +131,7 @@ $(document).ready(function () {
             var reader = new FileReader();
 
             reader.onload = function (e) {
-                $('#containment').css('background-image', 'url(' + e.target.result + ')');
+                $('#containment-set').css('background-image', 'url(' + e.target.result + ')');
             }
 
             reader.readAsDataURL(input.files[0]);
@@ -150,12 +150,12 @@ $(document).ready(function () {
 
 	$('#rotate-right').click(function() {
 		rotation += 90;
-		$('#containment').rotate(rotation);
+		$('.modal-block-image').rotate(rotation);
 	});
 
 	$('#rotate-left').click(function() {
 		rotation -= 90;
-		$('#containment').rotate(rotation);
+		$('.modal-block-image').rotate(rotation);
 	});
 
 

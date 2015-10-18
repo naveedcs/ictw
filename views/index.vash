@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html>
   <head>
@@ -217,8 +218,8 @@
                 </h4>
               </div>
               <div class="modal-body" id="screenshot">
-                <div class="text-block text-center">
-					<div id="containment" class="modal-block-image" style=" background-image:url(images/modal-pic.jpg);"></div>
+                <div id="containment" class="text-block text-center">
+					<div id="containment-set" class="modal-block-image" style=" background-image:url(images/modal-pic.jpg);"></div>
                   <span class="overlay" id="brightness_value"></span>
 <!--                  <div id="draggable_text">
 -->
