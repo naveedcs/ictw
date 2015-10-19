@@ -221,9 +221,7 @@
                 <div id="containment" class="text-block text-center">
 					<div id="containment-set" class="modal-block-image" style=" background-image:url(images/modal-pic.jpg);"></div>
                   <span class="overlay" id="brightness_value"></span>
-<!--                  <div id="draggable_text">
--->
-                  <div>
+                  <div id="draggable_text">
                     <h4>#ichoosetowin</h4>
                     <h3>
                       My name is <span id="name_value"></span><br> And in <span id="skill_value"></span>
