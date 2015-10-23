@@ -206,7 +206,7 @@
         </article>
         <!--  \ text box / -->
         <!-- Modal -->
-        <div class="modal fade modal-custom" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal  modal-custom" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
