@@ -887,7 +887,7 @@ p {
 @media only screen and (max-device-width: 767px) {
 
     .modal-custom .modal-body {padding: 12px;background: #fff;border-radius: 10px; -webkit-border-radius: 10px; border: none;
-    position : fixed; top=0; left=0; width: 100%;}
+    position : fixed; width: 100%;}
 	.modal-custom button.close { right: 25px; top: 0;}
 	.modal-custom .largetext, .container-1 h1, .btn-lg, .container-1 h1, .container-1 .social-media, #bannerCntr .block .jumbotron h3 , #bannerCntr .block .jumbotron h2  { letter-spacing: 0;}
 	.social-media li { line-height: 40px; height: 40px; width: 40px; font-size: 20px; }
@@ -895,7 +895,7 @@ p {
 	.btn-default .custom-icon { height: 20px; width: 28px; }
 	.modal-custom .modal-body {padding: 12px;background: #fff;border-radius: 10px; -webkit-border-radius: 10px; border: none;}
     .modal-custom .modal-body .text-block { padding: 15px 7px 10px 7px; min-height: 0; }
-
+    .modal-custom .modal-dialog  { width : auto;}
     #bannerCntr .block .jumbotron {
         max-width: none;
         margin: 140px 15px 15px;
@@ -953,7 +953,6 @@ p {
     }
     .modal-custom .modal-footer{
         width: auto;
-        margin-top: 550px;
     }
     .modal-custom .range-slider-box li .left {
         float: left;
@@ -964,5 +963,15 @@ p {
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-device-width: 480px) {
     .modal-custom .modal-body {padding: 12px;background: #fff;border-radius: 10px; -webkit-border-radius: 10px; border: none;
-    position : fixed; top=0; left=0; width: 100%;}
+    position : inherit;  width: 100%;}
     .modal-custom .modal-body .text-block { padding: 15px 7px 10px 7px; min-height: 0;}
+    .modal-custom .modal-dialog  { width : auto;}
+    .modal-custom .modal-footer{
+        width: auto;
+    }
+    .modal-custom .modal-content {
+    background: none;
+    box-shadow: none; 
+    -webkit-box-shadow: none; 
+    border: none; 
+}
