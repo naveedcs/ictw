@@ -973,5 +973,6 @@ p {
     background: none;
     box-shadow: none; 
     -webkit-box-shadow: none; 
-    border: none; 
+    border: none; }
+    .modal-custom .largetext {margin-bottom: 6px;}
 }
