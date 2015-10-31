@@ -1,6 +1,6 @@
 $(document).ready(function () {
     var _imageDataGlobal = "";
-
+    var is_iphonewindow = 1000;
     $("#scale_image").slider({
         value: 100,
         min: 100,
@@ -10,7 +10,7 @@ $(document).ready(function () {
             $("#containment-set").css("background-size", ui.value + "%");
         }
     });
-
+    
     $("#brightness").slider({
         value: 0.5,
         min: 0,
@@ -30,6 +30,14 @@ $(document).ready(function () {
     });
 
     $("#share").click(function () {
+        is_iphonewindow = $(window).width();
+        if(is_iphonewindow > 800){
+        $("#draggable_text").draggable({
+            containment: ".modal-body",
+            axis: "y",
+            cursor: "move"
+        });
+        }
         var name = $("#name"),
             skill = $("#skill"),
             name_value = $("#name_value"),
@@ -51,12 +59,7 @@ $(document).ready(function () {
         }
 
     });
-
-    $("#draggable_text").draggable({
-        containment: ".modal-body",
-        axis: "y",
-        cursor: "move"
-    });
+    
 
     $("#upload_bg").click(function () {
         $("#input_img").click();
