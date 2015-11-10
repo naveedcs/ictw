@@ -1,6 +1,13 @@
 $(document).ready(function () {
     var _imageDataGlobal = "";
     var is_iphonewindow = 1000;
+	is_iphonewindow = $(window).width();
+	if(is_iphonewindow < 800)
+	{
+		$('body').css('overflow','hidden');
+	}else{
+		$('body').css('overflow','auto');
+	}
     $("#scale_image").slider({
         value: 100,
         min: 100,
@@ -223,4 +230,5 @@ $(document).ready(function () {
             }
         });
     });
+	
 });
