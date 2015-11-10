@@ -962,13 +962,7 @@ p {
         float: left;
         width: 40%;
     }
-	body {
-		left: 0;
-		-webkit-overflow-scrolling: touch;
-		position: fixed;
-		top: 0;
-		width: 100%;
-	}
+
 }
 
 /* All Mobile Sizes (devices and browser) */
