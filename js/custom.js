@@ -2,12 +2,6 @@ $(document).ready(function () {
     var _imageDataGlobal = "";
     var is_iphonewindow = 1000;
 	is_iphonewindow = $(window).width();
-	if(is_iphonewindow < 800)
-	{
-		$('body').css('overflow','hidden');
-	}else{
-		$('body').css('overflow','auto');
-	}
     $("#scale_image").slider({
         value: 100,
         min: 100,
@@ -38,13 +32,20 @@ $(document).ready(function () {
 
     $("#share").click(function () {
         is_iphonewindow = $(window).width();
-        if(is_iphonewindow > 800){
+      
+        if(is_iphonewindow < 800)
+        {
+            $('body').css('position','fixed !important');
+        }else{
+            $('body').css('position','relative !important');
+        }
+      
         $("#draggable_text").draggable({
             containment: ".modal-body",
             axis: "y",
             cursor: "move"
         });
-        }
+        
         var name = $("#name"),
             skill = $("#skill"),
             name_value = $("#name_value"),
