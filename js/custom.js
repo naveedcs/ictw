@@ -36,8 +36,10 @@ $(document).ready(function () {
         if(is_iphonewindow < 800)
         {
             $('body').css('position','fixed !important');
+			$("body").addClass("dummyClass").removeClass("dummyClass");
         }else{
             $('body').css('position','relative !important');
+			$("body").addClass("dummyClass").removeClass("dummyClass");
         }
       
         $("#draggable_text").draggable({
