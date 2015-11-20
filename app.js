@@ -186,7 +186,7 @@ app.post("/previewImage", function (req, res) {
 app.post('/send', function (req, res) {
     //console.log(req.body.to);
     var mailOptions = {
-            from: "melonie@ichoosetowin.org",
+            from: "attaullah.zai@gmail.com",
             to: req.body.to,
             subject: req.body.subject,
             text: req.body.text,
