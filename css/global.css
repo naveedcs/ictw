@@ -912,7 +912,7 @@ p {
     .modal-custom .modal-body .text-block { padding: 15px 7px 10px 7px; min-height: 0;}
     .modal-custom .modal-dialog  { width : auto;}
     .modal-custom .modal-footer{ width: auto; }
-    .modal-custom h5 {font-size: 23px; letter-spacing: 0px;}
+    .modal-custom h5 {font-size: 20px; letter-spacing: 0px;}
     .modal-custom h3 span {font-size: 40px;}
     .modal-custom .modal-content { background: none; box-shadow: none;  -webkit-box-shadow: none;  border: none; }
     .modal-custom .largetext {margin-bottom: 20px; }
