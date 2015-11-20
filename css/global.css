@@ -897,6 +897,9 @@ p {
     .modal-custom .range-slider-box li .left { float: left; width: 40%; }
     .modal-custom .modal-body .text-block { padding: 15px 7px 10px 7px; min-height: 0; }
     .modal-custom .modal-dialog  { width : auto;}
+    .modal-custom h4 { margin-bottom: 0; }
+    .modal-custom .range-slider-box li { padding: 5px 0 0; }
+    .modal-custom .btn-default { font-size: 18px; }
 }
 
 /* All Mobile Sizes (devices and browser) */
