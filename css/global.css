@@ -888,6 +888,7 @@ p {
     .modal-custom .largetext { margin: 15px 0; font-size: 60px; line-height: 50px; }
     .modal-custom h3 {margin: 20px 0 3px 0; font-size: 30px; line-height: 35px;}
 	.modal-custom button.close { right: 25px; top: 0;}
+
 	.modal-custom .largetext, .container-1 h1, .btn-lg, .container-1 h1, .container-1 .social-media, #bannerCntr .block .jumbotron h3 , #bannerCntr .block .jumbotron h2  { letter-spacing: 0;}
     .modal-custom .modal-dialog { width: auto; margin: 0 auto; }
     .modal-custom .modal-footer{ width: auto; }
