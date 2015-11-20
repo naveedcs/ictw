@@ -883,10 +883,20 @@ p {
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-device-width: 767px) {
 
+<<<<<<< HEAD
     .modal-custom .modal-body {padding: 12px;background: #fff;border-radius: 0px; -webkit-border-radius: 0px; border: none; position : inherit; width: 100%; height : 100%;}
     #containment{ height:90vw; }
     .modal-custom .largetext { margin: 15px 0; font-size: 60px; line-height: 50px; }
     .modal-custom h3 {margin: 20px 0 3px 0; font-size: 30px; line-height: 35px;}
+=======
+    .modal-custom .modal-body {padding: 12px;background: #fff;border-radius: 0px; 
+    -webkit-border-radius: 0px; border: none;
+    position : inherit; width: 100%; height : 100vw;}
+    #containment{ height:93vw;}
+    .modal-custom .largetext {font-size: 60px;}
+    .modal-custom h3 {margin: 0 0 3px 0; font-size: 30px; line-height: 35px;}
+    .modal-custom .largetext {margin-bottom: -16px;}
+>>>>>>> parent of 4de37fa... my changes
 	.modal-custom button.close { right: 25px; top: 0;}
 
 	.modal-custom .largetext, .container-1 h1, .btn-lg, .container-1 h1, .container-1 .social-media, #bannerCntr .block .jumbotron h3 , #bannerCntr .block .jumbotron h2  { letter-spacing: 0;}
@@ -898,10 +908,6 @@ p {
     .modal-custom h4 { margin-bottom: 0; }
     .modal-custom .range-slider-box li { padding: 5px 0 0; }
     .modal-custom .btn-default { font-size: 18px; }
-    .modal-custom .modal-title { display: none;}
-    .modal-custom .modal-header { padding: 17px 0; }
-    .modal-custom button.close { right: 10px;}
-    .rotate-btn { font-size: 18px;}
 }
 
 /* All Mobile Sizes (devices and browser) */
@@ -914,7 +920,7 @@ p {
     .modal-custom h5 {font-size: 20px; letter-spacing: 0px;}
     .modal-custom h3 span {font-size: 40px;}
     .modal-custom .modal-content { background: none; box-shadow: none;  -webkit-box-shadow: none;  border: none; }
-    .modal-custom .largetext {margin-bottom: 20px; }
+    .modal-custom .largetext {margin-bottom: 11px;}
     #containnment{ width:100%; height: 100%;}
 }
 
