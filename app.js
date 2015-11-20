@@ -45,8 +45,8 @@ server.listen(process.env.PORT || 3000);
 var smtpTransport = nodemailer.createTransport({
     service: "Gmail",
     auth: {
-        user: "attaullah.zai@gmail.com",
-        pass: "yafxbohbjksefvsn"
+        user: "ichoosetowinapp@gmail.com",
+        pass: "Apple718"
     }
 });
 
