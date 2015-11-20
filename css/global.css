@@ -654,6 +654,12 @@ p {
     font-family: 'league_gothicregular';
 }
 
+.modal-custom .bottom-position-text {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
 .modal-custom h5 {
     margin: 0;
     font-size: 25px;
@@ -883,22 +889,19 @@ p {
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-device-width: 767px) {
 
-<<<<<<< HEAD
     .modal-custom .modal-body {padding: 12px;background: #fff;border-radius: 0px; -webkit-border-radius: 0px; border: none; position : inherit; width: 100%; height : 100%;}
     #containment{ height:90vw; }
     .modal-custom .largetext { margin: 15px 0; font-size: 60px; line-height: 50px; }
     .modal-custom h3 {margin: 20px 0 3px 0; font-size: 30px; line-height: 35px;}
-=======
     .modal-custom .modal-body {padding: 12px;background: #fff;border-radius: 0px; 
     -webkit-border-radius: 0px; border: none;
     position : inherit; width: 100%; height : 100vw;}
+    .modal-custom .modal-header { padding: 15px; }
     #containment{ height:93vw;}
     .modal-custom .largetext {font-size: 60px;}
-    .modal-custom h3 {margin: 0 0 3px 0; font-size: 30px; line-height: 35px;}
+    .modal-custom h3 {margin: 20px 0 0px 0; font-size: 30px; line-height: 40px;}
     .modal-custom .largetext {margin-bottom: -16px;}
->>>>>>> parent of 4de37fa... my changes
-	.modal-custom button.close { right: 25px; top: 0;}
-
+	.modal-custom button.close { right: 10px; top: -5px;}
 	.modal-custom .largetext, .container-1 h1, .btn-lg, .container-1 h1, .container-1 .social-media, #bannerCntr .block .jumbotron h3 , #bannerCntr .block .jumbotron h2  { letter-spacing: 0;}
     .modal-custom .modal-dialog { width: auto; margin: 0 auto; }
     .modal-custom .modal-footer{ width: auto; }
@@ -908,6 +911,7 @@ p {
     .modal-custom h4 { margin-bottom: 0; }
     .modal-custom .range-slider-box li { padding: 5px 0 0; }
     .modal-custom .btn-default { font-size: 18px; }
+    .modal-custom .modal-title span { display: none;}
 }
 
 /* All Mobile Sizes (devices and browser) */
@@ -992,5 +996,4 @@ p {
             margin-right: 25px;
             margin-bottom: 0;
         }
-
 }

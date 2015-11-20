@@ -222,11 +222,13 @@
                       My name is <span id="name_value"></span><br> And in <span id="skill_value"></span>
                     </h3>
                     <span class="largetext">I choose to win!</span>
-                  </div>
-                  <h5>
-                    Let the world know how you choose to win<br>        
-                    </h5>
-				  <h5><a href="#">www.ichoosetowin.com</a></h5>
+                   </div>
+                    <div class="bottom-position-text">
+                      <h5>
+                      Let the world know how you choose to win<br>        
+                      </h5>
+                      <h5><a href="#">www.ichoosetowin.com</a></h5>
+                    </div>
                 </div>
               </div>
               <div class="modal-footer">
