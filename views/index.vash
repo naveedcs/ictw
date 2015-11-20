@@ -87,7 +87,7 @@
                         <span>And in</span>
                       </li>
                       <li>
-                        <input type="text" onblur="if (this.value == '') {this.value = '(gift, talent, skill)';}" onfocus="if(this.value == '(Action area)') {this.value = '';}" value="(Action area)" id="skill">
+                        <input type="text" onblur="if (this.value == '') {this.value = '(gift, talent, skill)';}" onfocus="if(this.value == '(gift, talent, skill)') {this.value = '';}" value="(gift, talent, skill)" id="skill">
                       </li>
                     </ul>
                   </form>
@@ -187,7 +187,7 @@
                 <p>I choose to win is a bold statement of victory. Today, own your victory and remind the world who you are, whose you are – and what you choose to do. Let’s flood social media with positive images of women who will NOT give up, nor give in, but women who, in life, choose to win!</p>
                 <p>Winning, by our definition is living out the boldness, braveness and brilliance we naturally possess when unleashing our God-given gifts to impact the world. Therefore, winning is different for each of us. Winning is choosing to be true, authentic and unapologetic!</p>
                 <p>‘I choose to win’ is a clear announcement of one’s expectation in life. Winning begins with a choice, and is followed by an attitude and accompanied by action. It’s accepting the responsibility for whatever is required – including seeing ourselves as winners capable of doing great things to positively impact the world. Let’s start a movement – women who are winning! </p>
-                <p><strong>To learn more about I Choose To Win, check out the latest issue of <a href="http://issuu.com/ichoosetowin/docs/ictw_emag_3rd_issue_fall_2015_final">our magazine.</strong></a> <br>#Ichoosetowin</p>
+                <p><strong>To learn more about I Choose To Win, check out the latest issue of <a href="#">our magazine.</strong></a> <br>#Ichoosetowin</p>
               </div>
             </div>
 
@@ -223,10 +223,10 @@
                     </h3>
                     <span class="largetext">I choose to win!</span>
                   </div>
+				  <h5><a href="#">www.ichoosetowin.com</a></h5>
                   <h5>
                     Let the world know how you choose to win<br>        
                     </h5>
-				  <h5><a href="#">www.ichoosetowin.com</a></h5>
                 </div>
               </div>
               <div class="modal-footer">
