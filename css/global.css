@@ -948,7 +948,7 @@ p {
 
 	.social-media li { line-height: 40px; height: 40px; width: 40px; font-size: 20px; }
 	.btn-default { font-size: 24px; }
-	.btn-default .custom-icon { height: 20px; width: 28px; }
+	.btn-default .custom-icon { height: 16px; width: 20px; }
     #bannerCntr .block .jumbotron {
         max-width: none;
         margin: 140px 15px 15px;

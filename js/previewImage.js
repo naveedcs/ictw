@@ -59,6 +59,7 @@ $(document).ready(function () {
         console.log(shareURL);
         FB.ui({
             method: 'share',
+			caption: 'An example caption',
             href: shareURL
         }, function (response) {});
     });

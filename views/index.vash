@@ -277,8 +277,9 @@
                     </a>
                   </li>
                   <li>
+				  
                       <i class="fa fa-facebook-f"></i>
-                      <a id="fb-share-link" href="javascript:void(0)" data-fburl="" >
+                      <a id="fb-share-link" href="javascript:void(0)" data-fburl="">
                     </a>
                   </li>
                   @*<li>
