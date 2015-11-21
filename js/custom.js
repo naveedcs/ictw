@@ -179,7 +179,7 @@ $(document).ready(function () {
             console.log(shareURL);
             FB.ui({
                 method: 'share',
-                href: shareURL,
+                link: shareURL,
                 caption: 'IChooseToWin http://bit.ly/1LSwf8L #ichoosetowin #statementofvictory',
             }, function (response) {});
         } else {
