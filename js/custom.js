@@ -179,8 +179,8 @@ $(document).ready(function () {
             console.log(shareURL);
             FB.ui({
                 method: 'share',
-                caption: 'An example caption',
-                href: shareURL
+                href: shareURL,
+                caption: 'IChooseToWin http://bit.ly/1LSwf8L #ichoosetowin #statementofvictory',
             }, function (response) {});
         } else {
             alert("Please check terms and condtion checkbox");
