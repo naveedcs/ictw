@@ -58,8 +58,8 @@ $(document).ready(function () {
         var shareURL = $(this).attr("data-fburl");
         console.log(shareURL);
         FB.ui({
-			method: 'share',
-			link: shareURL,
+            method: 'share',
+            href: shareURL
 			caption: 'IChooseToWin http://bit.ly/1LSwf8L #ichoosetowin #statementofvictory',
         }, function (response) {});
     });
