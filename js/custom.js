@@ -181,7 +181,7 @@ $(document).ready(function () {
                 method: 'feed',
                 caption: 'IChooseToWin http://bit.ly/1LSwf8L #ichoosetowin #statementofvictory',
                 /*link: shareURL*/
-                link: 'http://http://ictw.azurewebsites.net/',
+                link: 'http://ictw.azurewebsites.net/',
                 picture: 'http://ictw.azurewebsites.net/uploads/b24ba418-da80-49ce-b788-7042597b6595.png'
             }, function (response) {});
         } else {
