@@ -180,7 +180,7 @@ $(document).ready(function () {
             FB.ui({
                 method: 'share',
                 caption: 'IChooseToWin http://bit.ly/1LSwf8L #ichoosetowin #statementofvictory',
-                href: shareURL
+                link: shareURL
             }, function (response) {});
         } else {
             alert("Please check terms and condtion checkbox");
