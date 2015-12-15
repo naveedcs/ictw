@@ -8,7 +8,7 @@
     <!-- Responsive meta tag -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-
+    <meta name="description" content="Let the world know how you choose to win" >
     @html.block("style", function(model){
     <link rel="stylesheet" href="js/lib/bootstrap/dist/css/bootstrap.min.css">
       <link rel="stylesheet" href="js/lib/bootstrap/dist/css/bootstrap-theme.min.css">
@@ -20,7 +20,7 @@
                   <link rel="stylesheet" href="css/global.css">
           
     })
-    
+
 </head>
 
   @html.block("body",function(model){
