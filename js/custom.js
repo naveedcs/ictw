@@ -116,7 +116,8 @@ $(document).ready(function () {
                         var pinterestHref = "http://pinterest.com/pin/create/button/?url=" + pinURL + ";&media=" + mediaURL;
                         $("#pinterest-share-link").attr("href", pinterestHref);
                         $("#fb-share-link").attr("data-fburl", mediaURL);
-                        $("#twitter-share-link").attr("data-url", mediaURL);
+                        //$("#twitter-share-link").attr("data-url", mediaURL);
+                        $('#twitter_link').attr('href','https://twitter.com/intent/tweet?text=My%20name%20is%20'+$('#name').val()+'%20and%20in%20'+$('#skill').val()+'&url='+mediaURL);
                         $("#terms-chk-container").show();
                         $("#social_share").show();
                         $("#loader").hide();

@@ -8,7 +8,7 @@
     <!-- Responsive meta tag -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-    
+
     @html.block("style", function(model){
     <link rel="stylesheet" href="js/lib/bootstrap/dist/css/bootstrap.min.css">
       <link rel="stylesheet" href="js/lib/bootstrap/dist/css/bootstrap-theme.min.css">
@@ -293,8 +293,8 @@
                       <i  id="show_email_modal" class="fa fa-envelope"></i>
                   </li>
 				          <li>
-                      <i class="fa fa-twitter"></i>
-                    <a                       
+                      <a href="" id="twitter_link"><i class="fa fa-twitter"></i></a>
+                    <!--<a                       
                       class="twitter-share-button"
                       id="twitter-share-link" 
                       href="https://twitter.com/share"
@@ -303,7 +303,8 @@
                       data-hashtags="ichoosetowin, statementofvictory"
                       data-dnt="true">
 
-                    </a>
+                    </a>-->
+
                   </li>                  
                 </ul>
                  <span id="terms-chk-container" style="display:none;"><input type="checkbox" id="terms-chk" checked  /><a href="/terms">I agree to the ICTW terms</a></span>
