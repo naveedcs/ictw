@@ -114,7 +114,7 @@ $(document).ready(function () {
                         var mediaURL = encodeURI("http://ictw.azurewebsites.net/uploads/" + res.imageDetail.imageId + ".png");
                         var pinterestHref = "http://pinterest.com/pin/create/button/?url=" + pinURL + ";&media=" + mediaURL;
                         $("#pinterest-share-link").attr("href", pinterestHref);
-                        $("#fb-share-link").attr("data-fburl", "http://ictw.azurewebsites.net/loadImage?imageid=" + res.imageDetail.imageId);
+                        $("#fb-share-link").attr("data-fburl", "http://ictw.azurewebsites.net/uploads/" + res.imageDetail.imageId +".png");
                         $("#twitter-share-link").attr("data-url", "http://ictw.azurewebsites.net/loadImage?imageid=" + res.imageDetail.imageId);
                         $("#terms-chk-container").show();
                         $("#social_share").show();
@@ -182,7 +182,7 @@ $(document).ready(function () {
                 caption: 'IChooseToWin http://bit.ly/1LSwf8L #ichoosetowin #statementofvictory',
                 /*link: shareURL*/
                 link: 'http://ictw.azurewebsites.net/',
-                picture: 'http://ictw.azurewebsites.net/uploads/b24ba418-da80-49ce-b788-7042597b6595.png'
+                picture: shareURL
             }, function (response) {});
         } else {
             alert("Please check terms and condtion checkbox");
