@@ -182,7 +182,8 @@ $(document).ready(function () {
                 caption: 'IChooseToWin http://bit.ly/1LSwf8L #ichoosetowin #statementofvictory',
                 /*link: shareURL*/
                 link: 'http://ictw.azurewebsites.net/',
-                picture: shareURL
+                picture: shareURL,
+                description: 'My Name is #name and in #city I CHOOSE TO WIN' 
             }, function (response) {});
         } else {
             alert("Please check terms and condtion checkbox");
