@@ -178,7 +178,7 @@ $(document).ready(function () {
             //postCanvasToFacebook(shareURL);
             console.log(shareURL);
             FB.ui({
-                method: 'share',
+                method: 'feed',
                 caption: 'IChooseToWin http://bit.ly/1LSwf8L #ichoosetowin #statementofvictory',
                 /*link: shareURL*/
                 link: 'http://http://ictw.azurewebsites.net/',
