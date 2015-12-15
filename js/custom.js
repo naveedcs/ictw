@@ -215,7 +215,7 @@ $(document).ready(function () {
         var postObject = {
             to: _toAddress,
             subject: "IChooseToWin",
-            text: 'My Name is '+$('#name').val()+' and in '+ $('#skill').val() +' I CHOOSE TO WIN',
+            text: "My Name is "+$('#name').val()+" and in "+ $('#skill').val() +" I CHOOSE TO WIN",
             imageData: _imageDataGlobal
         };
         postObject = JSON.stringify(postObject);
