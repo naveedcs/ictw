@@ -104,7 +104,7 @@ $(document).ready(function () {
                     date: _date
                 };
                 userImage = JSON.stringify(userImage)
-                console.log(userImage);
+                
                 $.ajax({
                     type: "POST",
                     url: "/saveImageToDb",
@@ -124,6 +124,7 @@ $(document).ready(function () {
                     },
                     error: function (err) {
                         console.log(err);
+                        console.log('error');
 
                     }
                 });
