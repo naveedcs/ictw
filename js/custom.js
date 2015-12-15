@@ -114,8 +114,8 @@ $(document).ready(function () {
                         var mediaURL = encodeURI("http://ictw.azurewebsites.net/uploads/" + res.imageDetail.imageId + ".png");
                         var pinterestHref = "http://pinterest.com/pin/create/button/?url=" + pinURL + ";&media=" + mediaURL;
                         $("#pinterest-share-link").attr("href", pinterestHref);
-                        $("#fb-share-link").attr("data-fburl", "http://ictw.azurewebsites.net/uploads/" + res.imageDetail.imageId +".png");
-                        //$("#twitter-share-link").attr("data-url", "http://ictw.azurewebsites.net/uploads/" + res.imageDetail.imageId + ".png");
+                        $("#fb-share-link").attr("data-fburl", mediaURL);
+                        $("#twitter-share-link").attr("data-url", mediaURL);
                         $("#terms-chk-container").show();
                         $("#social_share").show();
                         $("#loader").hide();
