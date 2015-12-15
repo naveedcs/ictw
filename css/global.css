@@ -315,6 +315,7 @@ p {
         height: 60px;
         width: 65px;
         background: #d371d3;
+        cursor: pointer;
     }
 
         .social-media li a {
