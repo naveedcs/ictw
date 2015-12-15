@@ -180,7 +180,9 @@ $(document).ready(function () {
             FB.ui({
                 method: 'share',
                 caption: 'IChooseToWin http://bit.ly/1LSwf8L #ichoosetowin #statementofvictory',
-                link: shareURL
+                /*link: shareURL*/
+                link: 'http://http://ictw.azurewebsites.net/',
+                picture: 'http://ictw.azurewebsites.net/uploads/b24ba418-da80-49ce-b788-7042597b6595.png'
             }, function (response) {});
         } else {
             alert("Please check terms and condtion checkbox");
