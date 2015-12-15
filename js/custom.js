@@ -183,7 +183,7 @@ $(document).ready(function () {
                 /*link: shareURL*/
                 link: 'http://ictw.azurewebsites.net/',
                 picture: shareURL,
-                description: 'My Name is #name and in #city I CHOOSE TO WIN' 
+                description: 'My Name is '+$('#name').val()+' and in '+ $('#skill').val() +' I CHOOSE TO WIN' 
             }, function (response) {});
         } else {
             alert("Please check terms and condtion checkbox");
