@@ -7,6 +7,18 @@
 
     <!-- Responsive meta tag -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta property="og:site_name" content="I Choose to win - your city">
+    <meta property="og:url" content="http://ictw.azurewebsites.net">
+    <meta property="og:image" content="http://ictw.azurewebsites.net/images/modal-pic.jpg">
+    <meta property="og:title" content="My name is _____ And lives in _______">
+    <meta property="og:description" content="Let the world know how you choose to win">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@ComptonMovie">
+    <meta name="twitter:creator" content="@BeatsByDre">
+    <meta name="twitter:title" content="I CHoose to win - Rep Your City">
+    <meta name="twitter:description" content="Let the world know how you choose to win">
+    <meta name="twitter:image" content="http://ictw.azurewebsites.net/images/modal-pic.jpg">
 
     @html.block("style", function(model){
     <link rel="stylesheet" href="js/lib/bootstrap/dist/css/bootstrap.min.css">
@@ -46,7 +58,7 @@
     </script>
 
     <!--  / wrapper \ -->
-    <section id="wrapper" alt="honeyonsys">
+    <section id="wrapper">
 
       <!--  / header container \ -->
       <header id="headerCntr">
