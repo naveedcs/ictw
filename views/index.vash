@@ -292,16 +292,8 @@
                       <i  id="show_email_modal" class="fa fa-envelope"></i>
                   </li>
 				          <li>
-                      <i class="fa fa-twitter"></i>
-                    <a                       
-                      class="twitter-share-button"
-                      id="twitter-share-link" 
-                      href="https://twitter.com/share"
-                      data-url="http://bit.ly/1LSwf8L"
-                      data-count="none"
-                      data-hashtags="ichoosetowin, statementofvictory"
-                      data-dnt="true">
-
+                      <a href="" id="twitter_link"><i class="fa fa-twitter"></i></a>
+                    
                     </a>
                   </li>                  
                 </ul>
