@@ -125,7 +125,7 @@ $(document).ready(function () {
                     },
                     error: function (err,xhr, textStatus, errorThrown) {
                         console.log(err);
-                        console.log(textStatus);
+                        console.log(errorThrown);
 
                     }
                 });
