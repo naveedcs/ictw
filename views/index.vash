@@ -290,12 +290,12 @@
                     </a>
                   </li>*@
                   <li>
-                      <i  id="show_email_modal" class="fa fa-envelope"></i>
+                      <i id="show_email_modal" class="fa fa-envelope"></i>
                   </li>
 				          <li>
                       <a href="" id="twitter_link"><i class="fa fa-twitter"></i></a>
 
-                    </a>
+                   
                   </li>                  
                 </ul>
                  <span id="terms-chk-container" style="display:none;"><input type="checkbox" id="terms-chk" checked  /><a href="/terms">I agree to the ICTW terms</a></span>
