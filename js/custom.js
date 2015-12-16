@@ -104,6 +104,7 @@ $(document).ready(function () {
                     date: _date
                 };
                 userImage = JSON.stringify(userImage)
+                //console.log(userImage);
                 $.ajax({
                     type: "POST",
                     url: "/saveImageToDb",
@@ -114,8 +115,9 @@ $(document).ready(function () {
                         var mediaURL = encodeURI("http://ictw.azurewebsites.net/uploads/" + res.imageDetail.imageId + ".png");
                         var pinterestHref = "http://pinterest.com/pin/create/button/?url=" + pinURL + ";&media=" + mediaURL;
                         $("#pinterest-share-link").attr("href", pinterestHref);
-                        $("#fb-share-link").attr("data-fburl", "http://ictw.azurewebsites.net/loadImage?imageid=" + res.imageDetail.imageId);
-                        $("#twitter-share-link").attr("data-url", "http://ictw.azurewebsites.net/loadImage?imageid=" + res.imageDetail.imageId);
+                        $("#fb-share-link").attr("data-fburl", mediaURL);
+                        //$("#twitter-share-link").attr("data-url", mediaURL);
+                        $('#twitter_link').attr('href','https://twitter.com/intent/tweet?text=My%20name%20is%20'+$('#name').val()+'%20and%20in%20'+$('#skill').val()+'&url='+mediaURL);
                         $("#terms-chk-container").show();
                         $("#social_share").show();
                         $("#loader").hide();
@@ -123,6 +125,7 @@ $(document).ready(function () {
                     },
                     error: function (err) {
                         console.log(err);
+                        console.log(res);
 
                     }
                 });
@@ -178,9 +181,11 @@ $(document).ready(function () {
             //postCanvasToFacebook(shareURL);
             console.log(shareURL);
             FB.ui({
-                method: 'share',
+                method: 'feed',
                 caption: 'IChooseToWin http://bit.ly/1LSwf8L #ichoosetowin #statementofvictory',
-                href: shareURL
+                link: 'http://ictw.azurewebsites.net/',
+                picture: shareURL,
+                description: 'My Name is '+$('#name').val()+' and in '+ $('#skill').val() +' I CHOOSE TO WIN' 
             }, function (response) {});
         } else {
             alert("Please check terms and condtion checkbox");
@@ -212,7 +217,7 @@ $(document).ready(function () {
         var postObject = {
             to: _toAddress,
             subject: "IChooseToWin",
-            text: "This is a share from IChooseToWin.com",
+            text: "My Name is "+$('#name').val()+" and in "+ $('#skill').val() +" I CHOOSE TO WIN",
             imageData: _imageDataGlobal
         };
         postObject = JSON.stringify(postObject);
