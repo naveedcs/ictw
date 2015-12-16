@@ -104,10 +104,10 @@ $(document).ready(function () {
                     date: _date
                 };
                 userImage = JSON.stringify(userImage)
-                //console.log(userImage);
+                console.log(userImage);
                 $.ajax({
                     type: "POST",
-                    url: "http://ictw.azurewebsites.net/saveImageToDb",
+                    url: "/saveImageToDb",
                     data: userImage,
                     contentType: 'application/json',
                     success: function (res) {
