@@ -123,10 +123,14 @@ $(document).ready(function () {
                         $("#loader").hide();
                         //$("#start_over").show();
                     },
-                    error: function (err,xhr, textStatus, responseText) {
+                    /*error: function (err,xhr, textStatus, responseText) {
                         console.log(err);
-                        console.log(responseText);
+                        console.log(xhr.responseText);
 
+                    }*/
+                    error: function(xhr, status, error) {
+                      var err = eval("(" + xhr.responseText + ")");
+                      console.log(err.Message);
                     }
                 });
             }
