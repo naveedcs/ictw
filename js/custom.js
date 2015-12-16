@@ -124,8 +124,8 @@ $(document).ready(function () {
                         //$("#start_over").show();
                     },
                     error: function (err) {
+                        console.log(err.imageDetail.imageId);
                         console.log(err);
-                        console.log(res);
 
                     }
                 });
