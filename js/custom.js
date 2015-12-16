@@ -123,9 +123,9 @@ $(document).ready(function () {
                         $("#loader").hide();
                         //$("#start_over").show();
                     },
-                    error: function (err) {
+                    error: function (err,xhr, textStatus, errorThrown) {
                         console.log(err);
-                        //console.log(err);
+                        console.log(textStatus);
 
                     }
                 });
