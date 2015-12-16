@@ -107,7 +107,7 @@ $(document).ready(function () {
                 //console.log(userImage);
                 $.ajax({
                     type: "POST",
-                    url: "/saveImageToDb",
+                    url: "http://ictw.azurewebsites.net/saveImageToDb",
                     data: userImage,
                     contentType: 'application/json',
                     success: function (res) {
