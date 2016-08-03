@@ -15,7 +15,7 @@
               <link rel="stylesheet" href="css/fonts.css">
                 <link rel="stylesheet" href="css/global.css">
 
-<link href="js/lib/instalink/instalink-1.7.0.min.css" rel="stylesheet"> 
+<link href="js/lib/instalink/instalink-2.0.6.min.css" rel="stylesheet"> 
 
     @html.block("style", function(model){
        

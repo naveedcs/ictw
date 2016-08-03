@@ -16,7 +16,7 @@
           <link rel="stylesheet" href="css/font-awesome.min.css">
             <link rel="stylesheet" href="css/jquery-ui.css">
               <link rel="stylesheet" href="css/fonts.css">
-                <link rel="stylesheet" href="js/lib/instalink/instalink-1.7.0.min.css"> 
+                <link rel="stylesheet" href="js/lib/instalink/instalink-2.0.6.min.css"> 
                   <link rel="stylesheet" href="css/global.css">
           
     })
@@ -158,24 +158,21 @@
                 <!-- <script src="http://snapwidget.com/js/snapwidget.js"></script>
                 <iframe src="http://snapwidget.com/in/?u=aWNob29zZXRvd2lufGlufDI5MHw0fDZ8fG5vfDAgMCA1IDR8bm9uZXxvblN0YXJ0fG5vfHllcw==&ve=121015" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;"></iframe> -->
 
-                <!-- instalink plugin -->
-                <div data-il
-                   data-il-client-id="c4529a7cdc5d44c497339f32ced8c6b4"
-                   data-il-username="Ichoosetowin"
-                   data-il-hashtag=""
-                   data-il-lang="en"
-                   data-il-show-heading="false"
-                   data-il-scroll="false"
-                   data-il-width="100%"
-                   data-il-height="1400px"
-                   data-il-image-size="large"
-                   data-il-bg-color="#a92498"
-                   data-il-content-bg-color="#ffffff"
-                   data-il-font-color="#fff"
-                   data-il-ban="">
-              </div>
+				<div data-il
+					data-il-access-token="1633811007.1677ed0.94530243271b4ecd86d3661e5c9d93fd"
+					data-il-username=""
+					data-il-lang="en"
+					data-il-show-heading="true"
+					data-il-scroll="true"
+					data-il-width="100%"
+					data-il-height="1400px"
+					data-il-image-size="large"
+					data-il-bg-color="#cc66cc"
+					data-il-content-bg-color="#ffffff"
+					data-il-font-color="#FFFFFF"
+					data-il-cache-media-time="0">
+				</div>
 
-				  
             </div>
             <div class="greybox">
 
@@ -375,8 +372,8 @@
 
   @html.block("scripts", function(model){
   <script src="js/lib/jquery/dist/jquery.js"></script>
-  <script src="js/lib/instalink/instalink-1.7.0.min.js"></script>
   <script src="js/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="js/lib/instalink/instalink-2.0.6.min.js"></script>
   <script src="js/lib/bxslider-4/dist/jquery.bxslider.min.js"></script>
   <script src="js/lib/html2canvas/html2canvas.js"></script>
   <script src="js/lib/jquery-ui/jquery-ui.js"></script>
